@@ -1,0 +1,46 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve the project. Do not include credentials or other sensitive information.
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      description: The exact version where the problem occurs.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Runtime, framework, platform, browser, and operating-system versions as applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Provide a small repository, StackBlitz, or exact steps that reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Paste the complete relevant output after removing secrets and personal information.
+      render: shell
