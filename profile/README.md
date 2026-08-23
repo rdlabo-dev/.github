@@ -1,8 +1,8 @@
 # rdlabo Open Source
 
-Open source software maintained by [Masahiko Sakakibara](https://github.com/rdlabo).
+Open source software maintained by [Masahiko Sakakibara](https://rdlabo.dev/).
 
-We build libraries and developer tools around Ionic, Angular, Capacitor, Hono, and TypeScript.
+We build libraries and developer tools around Ionic, Angular, Capacitor, Hono, and TypeScript. Documentation for these projects is published at [docs.rdlabo.dev](https://docs.rdlabo.dev/).
 
 ## Featured projects
 
